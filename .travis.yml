@@ -4,12 +4,11 @@ php:
 
 before_install: true
 
-install:
-  - echo "Salut"
-  - echo "ça marche"
+install: true
 
 before_script: true
 
-script: true
+script:
+  - phpunit
 
 after_script: true
