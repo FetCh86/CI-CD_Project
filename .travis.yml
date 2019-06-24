@@ -4,7 +4,8 @@ php:
 
 before_install: true
 
-install: true
+install:
+  - composer install
 
 before_script: true
 
