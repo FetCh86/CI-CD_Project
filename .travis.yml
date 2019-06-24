@@ -9,6 +9,6 @@ install: true
 before_script: true
 
 script:
-  - phpunit
+  - phpunit tests
 
 after_script: true
