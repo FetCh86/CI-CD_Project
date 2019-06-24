@@ -4,7 +4,9 @@ php:
 
 before_install: true
 
-install: true
+install:
+  - echo "Salut"
+  - echo "ça marche"
 
 before_script: true
 
