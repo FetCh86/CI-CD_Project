@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: fchou
  * Date: 25/06/2019
- * Time: 11:04
+ * Time: 11:04.
  */
 
 declare(strict_types=1);
