@@ -1,0 +1,11 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: feature-1
+  allow:
+  - dependency-type: direct
+  - dependency-type: indirect
